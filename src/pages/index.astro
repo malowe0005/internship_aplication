@@ -1,0 +1,36 @@
+---
+import Hero from "../../scr/components/hero.astro";
+import About from "../../scr/components/about.astro";
+import Qualifications from "../../scr/components/qualifications.astro";
+import Projects from "../../scr/components/projects.astro";
+import Footer from "../../scr/components/footer.astro";
+---
+
+<html lang="da">
+  <head>
+        <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Mathilde Løwe</title>
+    <script
+      defer
+      src="https://unpkg.com/tailwindcss-intersect@2.x.x/dist/observer.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <main>
+        <Hero></Hero>
+        <About></About>
+        <Qualifications></Qualifications>
+        <Projects></Projects>
+    </main>
+    
+    <footer>
+      <Footer></Footer>
+    </footer>
+  </body>
+
+</html>
+

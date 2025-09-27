@@ -1,0 +1,14 @@
+---
+const { variant = "red" } = Astro.props;
+
+const buttonstyling = "my-5 border-solid border-3 px-2 py-2 rounded-2xl font-semibold";
+
+const variantClasses = {
+  red: "border-red text-red",
+  green: "border-green text-green",
+  blue: "border-blue text-blue",
+  yellow: "border-yellow text-yellow",
+};
+---
+
+<button class={`${buttonstyling} ${variantClasses[variant] || ''}`}><slot/></button>
