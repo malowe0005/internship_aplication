@@ -7,23 +7,25 @@
 
 /* place fonts here */
 @font-face {
-  font-family: "PaytoneOne";
-  src: url("/font/PaytoneOne.ttf") format("truetype");
+  font-family: "Roboto";
+  src: url("/font/Roboto.ttf") format("truetype");
 }
 
 @layer utilities {
-  .font-paytoneone {
-    font-family: "PaytoneOne", sans-serif;
+  .font-roboto {
+    font-family: "Roboto";
   }
 }
 
 /* put colors here */
 @theme {
-  --color-red: #cb6757;
-  --color-green: #56905f;
-  --color-blue: #02a1b9;
-  --color-yellow: #d1b641;
-  --color-black: #1b1b1b;
+  --color-green: #927d14;
+  --color-blue: #191491;
+  --color-yellow: #fff0a3;
+  --color-black: #2c2c2c;
 }
 
 /* create simple general css here */
+h1 {
+  font-family: "Roboto";
+}
