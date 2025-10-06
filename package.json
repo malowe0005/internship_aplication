@@ -9,7 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.5.2"
+    "astro": "^5.5.2",
+    "swiper": "^12.0.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.13",

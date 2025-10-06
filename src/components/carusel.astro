@@ -1,0 +1,147 @@
+---
+
+---
+
+<section class="mt-50 mb-50">
+    <div class="relative max-w-sm mx-auto my-0">
+        <div class="flex aspect-4/6 overflow-x-hidden snap-x snap-mandatory scroll-smooth">
+
+      <section id="slide-1" class="grow shrink-0 basis-full snap-start">
+    <h3 class="text-4xl">Alefarm Brewing</h3>
+    <p class="text-lg italic font-semibold text-yellow">2 Sem: Eksamenen</p>
+    <p class="text-white mt-5 h-30">Dette projekt var en kunde case for Alefarm Brewing. I vores team skabte vi et forslag til en ny visuel identitet, som bedre kommunikerede virksomhedens værdier. Vi havde især fokus på SEO og brugergrænsefladen i forhold til målgruppen.</p>
+    
+    <div class="relative w-full h-70 mx-auto pt-10">
+        <div class="shuffleImg bg-[url(/alefarmV1.png)] absolute w-full h-full bg-no-repeat bg-contain"></div>
+        <div class="shuffleImg bg-[url(/alefarmV2.png)] absolute w-full h-full bg-no-repeat bg-contain"></div>
+        <div class="shuffleImg bg-[url(/alefarmV3.png)] absolute w-full h-full bg-no-repeat bg-contain"></div>
+    </div>
+</section>
+
+<section id="slide-2" class="grow shrink-0 basis-full snap-start">
+    <h3 class="text-4xl">Instant Day</h3>
+    <p class="text-lg italic font-semibold text-yellow">3 Sem: Kreativ Opgave</p>
+    <p class="text-white mt-5 h-30">Denne opgave gik ud på at skabe en platform til Instant Day - en konkurrence der fejre instant fotografering. Vores design havde fokus på kreativitet og brugervenlighed for en bred målgruppe.</p>
+    
+    <div class="relative w-full h-70 mx-auto pt-10">
+        <div class="shuffleImg bg-[url(/instantV1.png)] absolute w-full h-full bg-no-repeat bg-contain"></div>
+        <div class="shuffleImg bg-[url(/instantV2.png)] absolute w-full h-full bg-no-repeat bg-contain"></div>
+        <div class="shuffleImg bg-[url(/instantV3.png)] absolute w-full h-full bg-no-repeat bg-contain"></div>
+    </div>
+</section>
+
+<section id="slide-3" class="grow shrink-0 basis-full snap-start">
+    <h3 class="text-4xl">Circular Lab</h3>
+    <p class="text-lg italic font-semibold text-yellow">2 Sem: Kunde Case</p>
+    <p class="text-white mt-5 h-30">Circular Lab spreder viden omkring cirkulær økonomi og forbrugsvaner. Projektets fokus lå derfor på at kommunikere viden på en spændene men forståelig måde.</p>
+    
+    <div class="relative w-full h-70 mx-auto pt-10">
+        <div class="shuffleImg bg-[url(/circularV1.png)] absolute w-full h-full bg-no-repeat bg-contain"></div>
+        <div class="shuffleImg bg-[url(/circularV2.png)] absolute w-full h-full bg-no-repeat bg-contain"></div>
+        <div class="shuffleImg bg-[url(/circularV3.png)] absolute w-full h-full bg-no-repeat bg-contain"></div>
+    </div>
+</section>
+        </div>
+
+        <div class="flex gap-5 absolute bottom-1 left-1/2 -translate-x-1/2 z-1">
+            <!-- <div class="w-5 h-5 rounded-full bg-yellow opacity-[0.75] transition-opacity ease-in-out duration-400 hover:opacity-100 hover:cursor-pointer"> -->
+                   <a href="#slide-1"></a>
+           
+            <!-- <div class="w-5 h-5 rounded-full bg-yellow opacity-[0.75] transition-opacity ease-in-out duration-400 hover:opacity-100 hover:cursor-pointer"> -->
+                   <a href="#slide-2"></a>
+         
+            <!-- <div class="w-5 h-5 rounded-full bg-yellow opacity-[0.75] transition-opacity ease-in-out duration-400 hover:opacity-100 hover:cursor-pointer"> -->
+                   <a href="#slide-3"></a>
+        </div>
+    </div>
+
+</section>
+
+
+<style>
+
+a {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.shuffleImg {
+    animation: animate 15s linear infinite;
+}
+
+.shuffleImg:nth-child(1){
+    animation-name: animate1;
+    z-index: 2;
+}
+.shuffleImg:nth-child(2){
+    animation-name: animate2;
+    z-index: 1;
+}
+.shuffleImg:nth-child(3){
+    animation-name: animate3;
+    z-index: 0;
+}
+
+@keyframes animate1{
+    0%{
+        opacity: 1;
+    }
+    32%{
+        opacity: 1;
+    }
+    33%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes animate2{
+    0%{
+        opacity: 0;
+    }
+    31%{
+        opacity: 1;
+    }
+    32%{
+        opacity: 1;
+    }
+    65%{
+        opacity: 1;
+    }
+    66%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes animate3{
+    0%{
+        opacity: 0;
+    }
+    64%{
+        opacity: 1;
+    }
+    65%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+</style>
