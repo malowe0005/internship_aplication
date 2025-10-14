@@ -10,16 +10,6 @@
 @tailwind utilities;
 
 /* place fonts here */
-@font-face {
-  font-family: "Roboto";
-  src: url("/font/Roboto.ttf") format("truetype");
-}
-
-@layer utilities {
-  .font-roboto {
-    font-family: "Roboto";
-  }
-}
 
 /* put colors here */
 @theme {
