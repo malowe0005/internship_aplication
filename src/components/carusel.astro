@@ -2,11 +2,11 @@
 
 ---
 
-<section class="mt-20 md:mt-30">
+<section class="mt-30 md:mt-30">
     <div class="relative max-w-sm mx-auto my-0 md:max-w-3xl lg:max-w-230">
-        <div class="flex aspect-4/8 overflow-x-hidden overflow-y-hidden snap-x snap-mandatory scroll-smooth gap-10 md:aspect-7/4 lg:aspect-8/4">
+        <div class="flex aspect-4/8 overflow-x-hidden overflow-y-hidden snap-x snap-mandatory scroll-smooth gap-10 md:aspect-7/5 lg:aspect-8/5">
 
-      <section id="slide-1" class="pt-30 grow shrink-0 basis-full snap-start md:grid md:grid-cols-6 md:gap-3 lg:gap-5">
+      <section id="slide-1" class="pt-20 grow shrink-0 basis-full snap-start md:grid md:grid-cols-6 md:gap-3 lg:gap-5 md:pt-50 lg:pt-70">
    <div class="md:col-start-1 md:col-span-3 md:pr-5 lg:pr-3">
      <h3 class="text-4xl lg:text-5xl italic">ALEFARM BREWING</h3>
     <p class="text-lg font-semibold text-yellow lg:text-2xl">2 Sem: Eksamenen</p>
@@ -20,7 +20,7 @@
     </div>
 </section>
 
-<section id="slide-2" class="pt-30 grow shrink-0 basis-full snap-start md:grid md:grid-cols-6 md:gap-3 lg:gap-5">
+<section id="slide-2" class="pt-20 grow shrink-0 basis-full snap-start md:grid md:grid-cols-6 md:gap-3 lg:gap-5 md:pt-50 lg:pt-70">
     <div class="md:col-start-1 md:col-span-3 md:pr-5 lg:pr-3">
     <h3 class="text-4xl lg:text-5xl italic">Instant Day</h3>
     <p class="text-lg font-semibold text-yellow lg:text-2xl">3 Sem: Kreativ Opgave</p>
@@ -34,7 +34,7 @@
     </div>
 </section>
 
-<section id="slide-3" class="pt-30 grow shrink-0 basis-full snap-start md:grid md:grid-cols-6 md:gap-3 lg:gap-5">
+<section id="slide-3" class="pt-20 grow shrink-0 basis-full snap-start md:grid md:grid-cols-6 md:gap-3 lg:gap-5 md:pt-50 lg:pt-70">
      <div class="md:col-start-1 md:col-span-3 md:pr-5 lg:pr-3">
     <h3 class="text-4xl lg:text-5xl italic">Circular Lab</h3>
     <p class="text-lg font-semibold text-yellow lg:text-2xl">2 Sem: Kunde Case</p>
@@ -49,7 +49,7 @@
 </section>
         </div>
 
-        <div class="flex gap-5 absolute bottom-10 left-1/2 -translate-x-1/2 z-1 md:-bottom-8 lg:-bottom-15">
+        <div class="flex gap-5 absolute bottom-15 left-1/2 -translate-x-1/2 z-1 md:-bottom-8 lg:-bottom-15">
             <!-- <div class="w-5 h-5 rounded-full bg-yellow opacity-[0.75] transition-opacity ease-in-out duration-400 hover:opacity-100 hover:cursor-pointer"> -->
                    <a href="#slide-1"></a>
            
@@ -72,11 +72,13 @@ a {
     border-radius: 50%;
     background-color: var(--color-yellow);
     opacity: 0.75;
-    transition: opacity ease 250ms;
+    transition: opacity transform ease 250ms;
 }
 
 a:hover {
     opacity: 1;
+    transform: scale(1.2);
+
 }
 
 .shuffleImg {

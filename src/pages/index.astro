@@ -6,6 +6,9 @@ import Carusel from "../components/carusel.astro";
 import Gallary from "../components/gallary.astro";
 import Footer from "../components/footer.astro";
 import "../styles/tailwind.css";
+import Button from "../components/button.astro";
+import Top from "../components/topButton.astro";
+import Top2 from "../components/topFooter.astro";
 ---
 
 <html lang="da">
@@ -22,9 +25,20 @@ import "../styles/tailwind.css";
   </head>
 
   <body class="bg-black">
-    <main class="">
+    <main>
         <Hero></Hero>
+        <div  class="mx-auto max-w-lg md:max-w-3xl lg:max-w-4xl">
+           <ul class="ml-9 -mt-42 md:-mt-65 lg:-mt-75">
+        <li class="mb-3 md:mb-5 lg:mb-7"><Button link="#section-1">Om Mig</Button></li>
+        <li class="mb-3 md:mb-5 lg:mb-7"><Button link="#section-2">Kvalifikationer</Button></li>
+        <li class="mb-3 md:mb-5 lg:mb-7"><Button link="#slide-1">Tideligere Projekter </Button></li>
+        <li><Button link="#section-3">Kontak Mig</Button></li>
+    </ul>
+        </div>
+
+        <Top></Top>
         <About></About>
+        
         <Qualifications></Qualifications>
         <Carusel></Carusel>
         <Gallary></Gallary>
@@ -32,8 +46,18 @@ import "../styles/tailwind.css";
     
     <footer>
       <Footer></Footer>
+      <div  class="mx-auto max-w-lg md:max-w-3xl lg:max-w-4xl">
+       <ul class="ml-9 -mt-45 mb-15 md:-mt-68 lg:-mt-85">
+        <li class="mb-3 md:mb-5 lg:mb-7"><Button link="mailto:mathildeloewe@gmail.com">Kontak Mig Via Email</Button></li>
+        <li class="mb-3 md:mb-5 lg:mb-7"><Button  link="https://www.linkedin.com/in/mathilde-løwe-497b8a290">LinkedIn</Button></li>
+        <li><Button  link="https://github.com/malowe0005">GitHub</Button></li>
+    </ul>
+    </div>
+
+    <div class="max-w-sm mx-auto grid justify-items-center mt-25 mb-5 md:mt-35 md:mb-10 lg:mt-50 lg:mb-10">
+      <Top2></Top2>
+    </div>
     </footer>
   </body>
 
 </html>
-

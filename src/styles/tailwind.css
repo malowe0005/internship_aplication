@@ -61,3 +61,7 @@ p {
 li {
   font-family: "Roboto";
 }
+
+html {
+  scroll-behavior: smooth;
+}
