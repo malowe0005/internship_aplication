@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* font */
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
 /* put colors here */
 @theme {
   --color-green: #927d14;
@@ -15,34 +21,34 @@
 
 /* create simple general css here */
 h1 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   color: white;
 }
 
 h2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: italic;
   color: white;
 }
 
 h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: white;
 }
 
 h4 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: white;
 }
 
 p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 li {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 html {
