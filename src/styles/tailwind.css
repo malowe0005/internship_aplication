@@ -54,3 +54,7 @@ li {
 html {
   scroll-behavior: smooth;
 }
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
