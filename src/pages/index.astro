@@ -28,17 +28,21 @@ import Top2 from "../components/topFooter.astro";
     ></script>
   </head>
 
-  <body class="bg-black">
-    <main>
-        <Hero></Hero>
-        <div  class="mx-auto max-w-lg md:max-w-3xl lg:max-w-4xl">
-           <ul class="ml-9 -mt-42 md:-mt-65 lg:-mt-75">
+  <body class="bg-black w-md md:w-full">
+    <main class="w-md mx-auto md:w-full">
+
+    <div class="grid justify-center">
+        <div>
+          <Hero></Hero>
+        <div  class="mx-auto max-w-md md:max-w-3xl md:-ml-9 lg:max-w-4xl lg:-ml-5">
+           <ul class="ml-9 -mt-50 md:-mt-65 lg:-mt-75">
         <li class="mb-3 md:mb-5 lg:mb-7"><Button link="#section-1">Om Mig</Button></li>
         <li class="mb-3 md:mb-5 lg:mb-7"><Button link="#section-2">Kvalifikationer</Button></li>
         <li class="mb-3 md:mb-5 lg:mb-7"><Button link="#slide-1">Tideligere Projekter </Button></li>
         <li><Button link="#section-3">Kontak Mig</Button></li>
     </ul>
         </div>
+      </div>
 
         <Top></Top>
         <About></About>
@@ -46,6 +50,8 @@ import Top2 from "../components/topFooter.astro";
         <Qualifications></Qualifications>
         <Carusel></Carusel>
         <Gallary></Gallary>
+    </div>
+
     </main>
     
     <footer>
